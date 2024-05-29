@@ -4,6 +4,7 @@ import javafx.application.Application;
 
 import javafx.stage.Stage;
 import static login.SignupScreen.sendEmail;
+import login.LoginScreen;
 
 public class Main extends Application {
 

@@ -98,26 +98,6 @@ public class ChatClient extends Application {
             in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
             System.out.println("서버 연결 성공");
 
-            // sql관련 (close까지)
-            // 테이블에 내용이 있다고 간주(테이블에는 id, password, name이 varchar로 있음)
-            // id와 name을 가져와서 client에 String 변수 2개(userId, userName)를 만들어 저장
-            // 혼자 테스트할때는 user테이블에 id 1,2,3을 만들어서 했음
-            // 추후 로그인과 연결할 때는 sql문을 변경해서 가져오면 될듯?
-            Connection connection = DriverManager.getConnection(JDBC_URL, JDBC_USERNAME, JDBC_PASSWORD);
-            Statement statement = connection.createStatement();
-
-            String sql = "select user_id, user_name from chatting where id = 3";
-            ResultSet resultSet = statement.executeQuery(sql);
-
-            while (resultSet.next()) {
-                userId = resultSet.getString("id");
-                userName = resultSet.getString("name");
-            }
-
-            resultSet.close();
-            statement.close();
-            connection.close();
-
             // userId와 userName을 서버에 전달
             out.println(userId);
             out.println(userName);
@@ -129,6 +109,11 @@ public class ChatClient extends Application {
             System.out.println("서버 연결 실패");
             e.printStackTrace();
         }
+    }
+
+    // 사용자 이름 설정
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     // 서버로부터 수신받는 것에 대한 처리
