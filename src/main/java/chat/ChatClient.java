@@ -111,7 +111,7 @@ public class ChatClient extends Application {
         }
     }
 
-    // 사용자 이름 설정
+    // 사용자 이름 설정 및 목록에 추가
     public void setUserName(String userName) {
         this.userName = userName;
     }
@@ -124,7 +124,6 @@ public class ChatClient extends Application {
                 String message;
                 while ((message = in.readLine()) != null) {
                     chatLogsArea.appendText(message + "\n");
-
                     // 강퇴알림을 받았을경우 창띄우고 클라이언트 창 종료
                     if (message.equals(userName + "(" + userId + ")님이 강퇴되었습니다.")) {
                         System.exit(0);

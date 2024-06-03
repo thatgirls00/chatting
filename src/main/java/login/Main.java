@@ -10,6 +10,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
+        LoginScreen loginScreen = new LoginScreen();
         // 로그인 화면을 보여주는 메소드 호출
         LoginScreen.show(primaryStage);
     }

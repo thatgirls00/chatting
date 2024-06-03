@@ -80,7 +80,6 @@ public class ChatServer extends Application {
         }
     }
 
-
     public void serverOn() {
         try {
             // 서버 시작
