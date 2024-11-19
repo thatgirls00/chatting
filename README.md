@@ -50,7 +50,7 @@
             </td>
             <td colspan="4">
                 <img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white">
-                <img src="https://img.shields.io/badge/Android Studio-000000?style=for-the-badge&logo=Android Studio&logoColor=white"/>
+                <img src="https://img.shields.io/badge/Android Studio-6DB33F?style=for-the-badge&logo=Android Studio&logoColor=white"/>
             </td>
         </tr>
         <tr>
