@@ -23,7 +23,7 @@
                 API
             </td>
             <td colspan="4">
-                <img src="https://img.shields.io/badge/NEXON Open API-0054A3?style=for-the-badge&logo=nginx&logoColor=white"> 
+                <img src="https://img.shields.io/badge/OpenWeather Open API-0054A3?style=for-the-badge&logo=nginx&logoColor=white"> 
             </td>
         </tr>
         <tr>
@@ -67,6 +67,7 @@
             </td>
             <td colspan="4">
                 <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=GitHub&logoColor=white"/>
+                <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
                 <img src="https://img.shields.io/badge/FileZilla-BF0000?style=for-the-badge&logo=FileZilla&logoColor=white">
                 <img src="https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white">
             </td>
