@@ -32,7 +32,7 @@
             </td>
             <td colspan="4">
                 <img src="https://img.shields.io/badge/amazon ec2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white"> 
-                <img src="https://img.shields.io/badge/Firebase-FF9900?style=for-the-badge&logo=firebase&logoColor=white"/>
+                <img src="https://img.shields.io/badge/Firebase-BF0000?style=for-the-badge&logo=firebase&logoColor=white"/>
             </td>
         </tr>
         <tr>
@@ -50,7 +50,7 @@
             </td>
             <td colspan="4">
                 <img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white">
-                <img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat-square&logo=Android Studio&logoColor=white"/>
+                <img src="https://img.shields.io/badge/Android Studio-000000?style=for-the-badge&logo=Android Studio&logoColor=white"/>
             </td>
         </tr>
         <tr>
@@ -66,7 +66,7 @@
                 etc.
             </td>
             <td colspan="4">
-                <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/>
+                <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=GitHub&logoColor=white"/>
                 <img src="https://img.shields.io/badge/FileZilla-BF0000?style=for-the-badge&logo=FileZilla&logoColor=white">
                 <img src="https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white">
             </td>
