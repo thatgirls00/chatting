@@ -58,7 +58,7 @@
                 Hardware
             </td>
             <td colspan="4">
-                <img src="https://img.shields.io/badge/NEXON Open API-0054A3?style=for-the-badge&logo=nginx&logoColor=white"> 
+                <img src="https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi&logoColor=white"> 
             </td>
         </tr>
         <tr>
